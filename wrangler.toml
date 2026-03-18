@@ -3,9 +3,19 @@ main = "src/index.ts"
 compatibility_date = "2026-03-18"
 
 [observability]
+enabled = false
+head_sampling_rate = 1
+
 [observability.logs]
 enabled = true
+head_sampling_rate = 1
+persist = true
 invocation_logs = true
+
+[observability.traces]
+enabled = false
+persist = true
+head_sampling_rate = 1
 
 # Uncomment and set these if you want to deploy to a specific account
 # account_id = "YOUR_ACCOUNT_ID"
