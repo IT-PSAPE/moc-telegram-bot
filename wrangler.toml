@@ -2,6 +2,11 @@ name = "moc-telegram-bot"
 main = "src/index.ts"
 compatibility_date = "2026-03-18"
 
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
+
 # Uncomment and set these if you want to deploy to a specific account
 # account_id = "YOUR_ACCOUNT_ID"
 
