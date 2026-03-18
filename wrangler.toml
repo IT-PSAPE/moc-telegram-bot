@@ -1,0 +1,14 @@
+name = "telegram-relay-bot"
+main = "src/index.ts"
+compatibility_date = "2026-03-18"
+
+# Uncomment and set these if you want to deploy to a specific account
+# account_id = "YOUR_ACCOUNT_ID"
+
+# Use the default workers.dev domain (no custom domain needed)
+# To publish to a specific subdomain you own, set "workers_dev = true" and a custom "name".
+workers_dev = true
+
+# Enable module workers (recommended for TypeScript)
+# The default for Wrangler v2 is modules; this is explicit.
+type = "javascript"
