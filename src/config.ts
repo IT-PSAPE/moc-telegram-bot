@@ -2,7 +2,7 @@ import type { RuntimeConfig } from "./types.js";
 
 const DEFAULT_HASHTAG_MAP: Record<string, string> = {
   "#ministryofculturepe": "-1001165512639",
-  "#mocrequestbotplayground": "-5070299647",
+  "#botplayground": "-5070299647",
 };
 
 export function loadRuntimeConfig(): RuntimeConfig {
